@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  font: 1rem sans-serif;
+  background-color:hsl(208, 49%, 24%);
+  margin: 0 auto;
+  max-width: 800px;
+
+ box-shadow: 0 4px 6px rgba(179, 47, 47, 0.1), /* Soft shadow */
+                0 1px 3px rgba(182, 157, 157, 0.08);
+
+    border: 1px solid #ddd; /* Light border for a cleaner look */
+    border-radius: 8px; /* Slightly rounded corners */
+
+
+ .Title{
+  color: rgb(197, 132, 108);
+ }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .text{
+    color: rgb(221, 40, 49);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 auto;
+
+  }
+
+  .joke {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.2em #ccc;
+
+    .joke-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      gap: 1em;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    width: 90%;
+  
+  }
+
+  input {
+    padding: 0.7em;
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    width: 70%;
+    text-align: center;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
